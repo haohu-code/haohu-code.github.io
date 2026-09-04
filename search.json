@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Publications\n\n\nSelected work\nFor the complete and most current list, visit Google Scholar or my Optimization Online author page.\n\n\n\n\n2025\n\nThe Maximum Singularity Degree for Linear and Semidefinite Programming\nHao Hu\nOptimization Online\n\n\n\n2024\n\nAffine FR: an Effective Facial Reduction Algorithm for Semidefinite Relaxations of Combinatorial Problems\nHao Hu and Boshi Yang\narXiv\n\n\n\n2023\n\nFacial Reduction for the Shor SDP Relaxation of QCQPs\nHao Hu and Xinxin Li\nJournal PDF\n\n\n\n2023\n\nFacial Reduction for Symmetry Reduced Semidefinite and Doubly Nonnegative Programs\nHao Hu, Renata Sotirov, and Henry Wolkowicz\nMathematical Programming\n\n\n\n2020\n\nA Restricted Dual Peaceman–Rachford Splitting Method for QAP\nNaomi Graham, Hao Hu, Haesol Im, Xinxin Li, and Henry Wolkowicz\nOptimization Online\n\n\n\n2020\n\nOn Solving the Quadratic Shortest Path Problem\nHao Hu and Renata Sotirov\narXiv"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Research\n\n\n\nI study how structural information in optimization models can be translated into stronger theory and more effective algorithms."
+  },
+  {
+    "objectID": "research.html#facial-reduction-and-singularity",
+    "href": "research.html#facial-reduction-and-singularity",
+    "title": "Research",
+    "section": "Facial reduction and singularity",
+    "text": "Facial reduction and singularity\nSemidefinite programs often fail standard regularity conditions. Facial reduction identifies the smallest face containing the feasible region, exposing hidden structure and restoring a better-posed formulation. My work examines both algorithmic forms of facial reduction and the behavior of singularity degree.\nThemes: exposing vectors, strict feasibility, maximum singularity degree, degeneracy, exact duality"
+  },
+  {
+    "objectID": "research.html#semidefinite-relaxations",
+    "href": "research.html#semidefinite-relaxations",
+    "title": "Research",
+    "section": "Semidefinite relaxations",
+    "text": "Semidefinite relaxations\nSemidefinite and doubly nonnegative relaxations provide strong bounds for hard discrete problems. I develop formulations that combine problem structure with reductions that improve numerical stability and tractability.\nApplications: quadratic assignment, quadratic shortest path, graph partitioning, quadratically constrained quadratic programs"
+  },
+  {
+    "objectID": "research.html#large-scale-computational-methods",
+    "href": "research.html#large-scale-computational-methods",
+    "title": "Research",
+    "section": "Large-scale computational methods",
+    "text": "Large-scale computational methods\nStrong relaxations are useful only if they can be solved at meaningful scale. I work on splitting methods, alternating direction methods, and structured projection techniques for large conic models.\nMethods: ADMM, Peaceman–Rachford splitting, symmetry reduction, first-order optimization"
+  },
+  {
+    "objectID": "research.html#the-connecting-idea",
+    "href": "research.html#the-connecting-idea",
+    "title": "Research",
+    "section": "The connecting idea",
+    "text": "The connecting idea\nAcross these directions, the central question is the same: how can geometry and combinatorial structure be used before and during optimization to produce a formulation that is both mathematically stronger and computationally better?"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hao Hu",
+    "section": "",
+    "text": "Mathematical optimization · Clemson University\n\n\n\nI am an Assistant Professor in the School of Mathematical and Statistical Sciences at Clemson University. My research develops semidefinite programming methods for combinatorial optimization, with particular emphasis on facial reduction, efficient relaxations, and reliable computation.\n\nExplore my research View my CV\n\n\n\n\n\n   \n\n\nX ⪰ 0"
+  },
+  {
+    "objectID": "index.html#optimization-that-respects-problem-structure",
+    "href": "index.html#optimization-that-respects-problem-structure",
+    "title": "Hao Hu",
+    "section": "Optimization that respects problem structure",
+    "text": "Optimization that respects problem structure\nMy work connects the geometry of conic optimization with algorithms for difficult discrete problems. The goal is not only to obtain strong bounds, but to make the resulting models smaller, more stable, and more useful in computation."
+  },
+  {
+    "objectID": "index.html#from-discrete-models-to-conic-geometry",
+    "href": "index.html#from-discrete-models-to-conic-geometry",
+    "title": "Hao Hu",
+    "section": "From discrete models to conic geometry",
+    "text": "From discrete models to conic geometry"
+  },
+  {
+    "objectID": "index.html#lets-talk-optimization.",
+    "href": "index.html#lets-talk-optimization.",
+    "title": "Hao Hu",
+    "section": "Let’s talk optimization.",
+    "text": "Let’s talk optimization.\nFor research questions, collaborations, and student inquiries, the best way to reach me is by email."
+  }
+]
