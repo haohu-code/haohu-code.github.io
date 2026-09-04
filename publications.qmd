@@ -1,0 +1,76 @@
+---
+title: "Publications"
+description: "Selected publications and preprints by Hao Hu."
+page-layout: full
+---
+
+::: {.page-hero}
+<p class="eyebrow">Publications</p>
+
+# Selected work {.page-title}
+
+For the complete and most current list, visit [Google Scholar](https://scholar.google.com/citations?hl=en&user=nG_QJqMAAAAJ) or my [Optimization Online author page](https://optimization-online.org/author/h92hu/).
+:::
+
+::: {.content-shell .publication-list}
+::: {.publication}
+<span class="pub-year">2025</span>
+
+### The Maximum Singularity Degree for Linear and Semidefinite Programming
+
+Hao Hu
+
+[Optimization Online](https://optimization-online.org/wp-content/uploads/2024/02/maxsd.pdf){.paper-link}
+:::
+
+::: {.publication}
+<span class="pub-year">2024</span>
+
+### Affine FR: an Effective Facial Reduction Algorithm for Semidefinite Relaxations of Combinatorial Problems
+
+Hao Hu and Boshi Yang
+
+[arXiv](https://arxiv.org/abs/2402.11796){.paper-link}
+:::
+
+::: {.publication}
+<span class="pub-year">2023</span>
+
+### Facial Reduction for the Shor SDP Relaxation of QCQPs
+
+Hao Hu and Xinxin Li
+
+[Journal PDF](https://asvao.biemdas.com/issues/ASVAO2023-2-5.pdf){.paper-link}
+:::
+
+::: {.publication}
+<span class="pub-year">2023</span>
+
+### Facial Reduction for Symmetry Reduced Semidefinite and Doubly Nonnegative Programs
+
+Hao Hu, Renata Sotirov, and Henry Wolkowicz
+
+[Mathematical Programming](https://link.springer.com/article/10.1007/s10107-022-01890-9){.paper-link}
+:::
+
+::: {.publication}
+<span class="pub-year">2020</span>
+
+### A Restricted Dual Peaceman–Rachford Splitting Method for QAP
+
+Naomi Graham, Hao Hu, Haesol Im, Xinxin Li, and Henry Wolkowicz
+
+[Optimization Online](https://optimization-online.org/2020/06/7821/){.paper-link}
+:::
+
+::: {.publication}
+<span class="pub-year">2020</span>
+
+### On Solving the Quadratic Shortest Path Problem
+
+Hao Hu and Renata Sotirov
+
+[arXiv](https://arxiv.org/abs/1708.06580){.paper-link}
+:::
+:::
+

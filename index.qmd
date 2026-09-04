@@ -1,0 +1,119 @@
+---
+title: "Hao Hu"
+pagetitle: "Hao Hu — Mathematical Optimization"
+description: "Assistant Professor at Clemson University working in semidefinite programming, combinatorial optimization, and computational methods."
+page-layout: full
+---
+
+::: {.hero}
+::: {.hero-copy}
+<p class="eyebrow">Mathematical optimization · Clemson University</p>
+
+# Structure, geometry, and algorithms for hard optimization problems {.hero-title}
+
+I am an Assistant Professor in the School of Mathematical and Statistical Sciences at Clemson University. My research develops semidefinite programming methods for combinatorial optimization, with particular emphasis on facial reduction, efficient relaxations, and reliable computation.
+
+::: {.hero-actions}
+[Explore my research](research.qmd){.button .button-primary}
+[View my CV](https://drive.google.com/file/d/1NWyJPBKW30m4vROuegevePrBVBsSbFg1/view?usp=sharing){.button .button-secondary}
+:::
+:::
+
+::: {.hero-mark aria-hidden="true"}
+::: {.matrix}
+<span></span><span class="active"></span><span></span><span></span>
+<span class="active"></span><span></span><span></span><span></span>
+<span></span><span></span><span class="active"></span><span></span>
+<span></span><span></span><span></span><span class="active"></span>
+:::
+<div class="matrix-label">X ⪰ 0</div>
+:::
+:::
+
+::: {.content-shell}
+::: {.section-intro}
+<p class="eyebrow">Research focus</p>
+
+## Optimization that respects problem structure
+
+My work connects the geometry of conic optimization with algorithms for difficult discrete problems. The goal is not only to obtain strong bounds, but to make the resulting models smaller, more stable, and more useful in computation.
+:::
+
+::: {.focus-grid}
+::: {.focus-card}
+<span class="card-number">01</span>
+
+### Semidefinite programming
+
+Convex relaxations that reveal structure in quadratic and combinatorial optimization problems.
+:::
+
+::: {.focus-card}
+<span class="card-number">02</span>
+
+### Facial reduction
+
+Geometric preprocessing for degeneracy, strict feasibility, singularity degree, and exact duality.
+:::
+
+::: {.focus-card}
+<span class="card-number">03</span>
+
+### Scalable algorithms
+
+Splitting and first-order methods for large semidefinite and doubly nonnegative relaxations.
+:::
+:::
+
+::: {.split-section}
+::: {.split-heading}
+<p class="eyebrow">Academic path</p>
+
+## From discrete models to conic geometry
+:::
+
+::: {.timeline}
+::: {.timeline-item}
+<span class="timeline-date">2021—present</span>
+
+### Clemson University
+
+Assistant Professor, Mathematical and Statistical Sciences
+:::
+
+::: {.timeline-item}
+<span class="timeline-date">2019—2021</span>
+
+### University of Waterloo
+
+Postdoctoral researcher with Henry Wolkowicz
+:::
+
+::: {.timeline-item}
+<span class="timeline-date">2019</span>
+
+### Tilburg University
+
+PhD in Mathematical Programming and Operations Research, supervised by Renata Sotirov
+:::
+:::
+:::
+
+::: {.contact-band}
+::: {.contact-copy}
+<p class="eyebrow">Contact</p>
+
+## Let’s talk optimization.
+
+For research questions, collaborations, and student inquiries, the best way to reach me is by email.
+:::
+
+::: {.contact-details}
+[hhu2@clemson.edu](mailto:hhu2@clemson.edu){.contact-link}
+
+Martin Hall O327  
+Clemson, South Carolina
+:::
+:::
+:::
+

@@ -1,0 +1,58 @@
+---
+title: "Research"
+description: "Research themes in semidefinite programming, facial reduction, and combinatorial optimization."
+page-layout: full
+---
+
+::: {.page-hero}
+<p class="eyebrow">Research</p>
+
+# Geometry that improves computation {.page-title}
+
+I study how structural information in optimization models can be translated into stronger theory and more effective algorithms.
+:::
+
+::: {.content-shell .research-content}
+::: {.research-row}
+<div class="research-index">01</div>
+
+::: {.research-body}
+## Facial reduction and singularity
+
+Semidefinite programs often fail standard regularity conditions. Facial reduction identifies the smallest face containing the feasible region, exposing hidden structure and restoring a better-posed formulation. My work examines both algorithmic forms of facial reduction and the behavior of singularity degree.
+
+**Themes:** exposing vectors, strict feasibility, maximum singularity degree, degeneracy, exact duality
+:::
+:::
+
+::: {.research-row}
+<div class="research-index">02</div>
+
+::: {.research-body}
+## Semidefinite relaxations
+
+Semidefinite and doubly nonnegative relaxations provide strong bounds for hard discrete problems. I develop formulations that combine problem structure with reductions that improve numerical stability and tractability.
+
+**Applications:** quadratic assignment, quadratic shortest path, graph partitioning, quadratically constrained quadratic programs
+:::
+:::
+
+::: {.research-row}
+<div class="research-index">03</div>
+
+::: {.research-body}
+## Large-scale computational methods
+
+Strong relaxations are useful only if they can be solved at meaningful scale. I work on splitting methods, alternating direction methods, and structured projection techniques for large conic models.
+
+**Methods:** ADMM, Peaceman–Rachford splitting, symmetry reduction, first-order optimization
+:::
+:::
+
+::: {.note-panel}
+## The connecting idea
+
+Across these directions, the central question is the same: **how can geometry and combinatorial structure be used before and during optimization to produce a formulation that is both mathematically stronger and computationally better?**
+:::
+:::
+
