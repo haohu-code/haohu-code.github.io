@@ -1,5 +1,5 @@
 ---
-title: "Research"
+pagetitle: "Research — Hao Hu"
 description: "Research themes in semidefinite programming, facial reduction, and combinatorial optimization."
 page-layout: full
 ---
@@ -55,4 +55,3 @@ Strong relaxations are useful only if they can be solved at meaningful scale. I 
 Across these directions, the central question is the same: **how can geometry and combinatorial structure be used before and during optimization to produce a formulation that is both mathematically stronger and computationally better?**
 :::
 :::
-

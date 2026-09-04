@@ -1,5 +1,4 @@
 ---
-title: "Hao Hu"
 pagetitle: "Hao Hu — Mathematical Optimization"
 description: "Assistant Professor at Clemson University working in semidefinite programming, combinatorial optimization, and computational methods."
 page-layout: full
@@ -15,7 +14,7 @@ I am an Assistant Professor in the School of Mathematical and Statistical Scienc
 
 ::: {.hero-actions}
 [Explore my research](research.qmd){.button .button-primary}
-[View my CV](https://drive.google.com/file/d/1NWyJPBKW30m4vROuegevePrBVBsSbFg1/view?usp=sharing){.button .button-secondary}
+[View my CV](files/CV_HaoHu.pdf){.button .button-secondary}
 :::
 :::
 
@@ -116,4 +115,3 @@ Clemson, South Carolina
 :::
 :::
 :::
-

@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - files/CV_HaoHu.pdf
 
 website:
   title: "Hao Hu"
@@ -17,7 +19,7 @@ website:
       - href: publications.qmd
         text: Publications
     right:
-      - href: "https://drive.google.com/file/d/1NWyJPBKW30m4vROuegevePrBVBsSbFg1/view?usp=sharing"
+      - href: files/CV_HaoHu.pdf
         text: CV
         aria-label: Curriculum vitae
       - href: "https://scholar.google.com/citations?hl=en&user=nG_QJqMAAAAJ"
