@@ -29,11 +29,19 @@ a { color: inherit; }
 
 .navbar {
   min-height: 78px;
-  padding: 0 4vw;
+  padding: 0;
   color: var(--ink);
   background: rgba(247, 248, 244, 0.94);
   border-bottom: 1px solid rgba(16, 39, 55, 0.1);
   backdrop-filter: blur(14px);
+}
+
+.navbar > .container-fluid {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 .navbar-brand {
@@ -82,7 +90,7 @@ main.content { margin: 0; padding: 0; max-width: none; }
   grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.65fr);
   align-items: center;
   min-height: 690px;
-  padding: 8rem max(5vw, calc((100vw - 1240px) / 2));
+  padding: 7.5rem clamp(3rem, 7%, 6rem);
   overflow: hidden;
   color: white;
   background:
@@ -221,7 +229,7 @@ h1.page-title {
 .contact-details { padding-left: 2rem; border-left: 1px solid rgba(255,255,255,.18); color: rgba(255,255,255,.67); font-size: .94rem; }
 .contact-link { display: block; margin-bottom: 1rem; color: var(--lime); font-size: 1.05rem; font-weight: 700; text-decoration: none; }
 
-.page-hero { padding: 8rem max(5vw, calc((100vw - 1180px) / 2)) 6rem; color: white; background: var(--navy); }
+.page-hero { padding: 7rem clamp(3rem, 7%, 6rem) 5.5rem; color: white; background: var(--navy); }
 .page-hero > p:not(.eyebrow) { max-width: 700px; color: rgba(255,255,255,.7); font-size: 1.06rem; }
 h1.page-title { margin-bottom: 1.5rem; font-size: clamp(3rem, 5vw, 4.6rem); }
 .page-hero a { color: var(--lime); }
