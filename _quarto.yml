@@ -35,7 +35,7 @@ website:
 format:
   html:
     theme: default
-    css: styles.css
+    css: styles-c76ab707.css
     toc: false
     smooth-scroll: true
     include-in-header:
