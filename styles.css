@@ -29,11 +29,19 @@ a { color: inherit; }
 
 .navbar {
   min-height: 78px;
-  padding: 0 4vw;
+  padding: 0;
   color: var(--ink);
   background: rgba(247, 248, 244, 0.94);
   border-bottom: 1px solid rgba(16, 39, 55, 0.1);
   backdrop-filter: blur(14px);
+}
+
+.navbar > .container-fluid {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 .navbar-brand {
@@ -74,15 +82,16 @@ a { color: inherit; }
 
 #quarto-content { padding: 0; }
 
-main.content { margin: 0; padding: 0; max-width: none; }
+main.content { margin: 0 auto; padding: 0; width: 100%; max-width: 1180px; min-width: 0; }
 
 .hero {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.65fr);
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 3rem;
   align-items: center;
-  min-height: 690px;
-  padding: 8rem max(5vw, calc((100vw - 1240px) / 2));
+  min-height: 0;
+  padding: 4.5rem clamp(1.5rem, 5%, 3.5rem);
   overflow: hidden;
   color: white;
   background:
@@ -118,9 +127,10 @@ h1.page-title {
   max-width: 850px;
   margin: 0 0 2rem;
   font-family: var(--serif);
-  font-size: clamp(2.8rem, 5vw, 4.8rem);
+  font-size: clamp(2.25rem, 3.5vw, 3.25rem);
   font-weight: 500;
-  line-height: 0.98;
+  line-height: 1.12;
+  text-wrap: balance;
   letter-spacing: -0.045em;
 }
 
@@ -132,7 +142,8 @@ h1.page-title {
   line-height: 1.7;
 }
 
-.hero-actions { display: flex; gap: .8rem; margin-top: 2.4rem; flex-wrap: wrap; }
+.hero-actions { margin-top: 1.75rem; }
+.hero-actions > p { display: flex; gap: .8rem; flex-wrap: wrap; margin: 0; }
 
 .button {
   display: inline-flex;
@@ -153,7 +164,7 @@ h1.page-title {
 .button-secondary { color: white; background: transparent; }
 .button-secondary:hover { background: rgba(255,255,255,.08); }
 
-.hero-mark { position: relative; z-index: 1; justify-self: end; width: min(32vw, 360px); }
+.hero-mark { position: relative; z-index: 1; justify-self: end; width: 100%; max-width: 280px; }
 
 .matrix {
   display: grid;
@@ -186,7 +197,7 @@ h1.page-title {
 .note-panel h2 {
   margin: 0;
   font-family: var(--serif);
-  font-size: clamp(2.3rem, 4vw, 4rem);
+  font-size: clamp(1.8rem, 2.5vw, 2.4rem);
   font-weight: 500;
   line-height: 1.05;
   letter-spacing: -0.035em;
@@ -221,9 +232,9 @@ h1.page-title {
 .contact-details { padding-left: 2rem; border-left: 1px solid rgba(255,255,255,.18); color: rgba(255,255,255,.67); font-size: .94rem; }
 .contact-link { display: block; margin-bottom: 1rem; color: var(--lime); font-size: 1.05rem; font-weight: 700; text-decoration: none; }
 
-.page-hero { padding: 8rem max(5vw, calc((100vw - 1180px) / 2)) 6rem; color: white; background: var(--navy); }
+.page-hero { padding: 4rem clamp(1.5rem, 5%, 3.5rem); color: white; background: var(--navy); }
 .page-hero > p:not(.eyebrow) { max-width: 700px; color: rgba(255,255,255,.7); font-size: 1.06rem; }
-h1.page-title { margin-bottom: 1.5rem; font-size: clamp(3rem, 5vw, 4.6rem); }
+h1.page-title { margin-bottom: 1.5rem; font-size: clamp(2.25rem, 3.5vw, 3.25rem); }
 .page-hero a { color: var(--lime); }
 
 .research-content { padding: 4rem 0 8rem; }
@@ -249,7 +260,7 @@ h1.page-title { margin-bottom: 1.5rem; font-size: clamp(3rem, 5vw, 4.6rem); }
 .nav-footer { padding: 2rem 4vw; color: var(--ink-soft); background: #edf0ed; border-top: 0; font-size: .8rem; }
 
 @media (max-width: 900px) {
-  .hero { grid-template-columns: 1fr; min-height: auto; padding-top: 7rem; padding-bottom: 6rem; }
+  .hero { grid-template-columns: 1fr; min-height: auto; padding-top: 3rem; padding-bottom: 3rem; }
   .hero-mark { display: none; }
   .section-intro, .split-section, .contact-band { grid-template-columns: 1fr; gap: 2rem; }
   .focus-grid { grid-template-columns: 1fr; }
