@@ -2,7 +2,8 @@ project:
   type: website
   output-dir: _site
   resources:
-    - files/CV_HaoHu.pdf
+    - CNAME
+    - files/**
 
 website:
   title: "Hao Hu"
